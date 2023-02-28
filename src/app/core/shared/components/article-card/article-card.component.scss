@@ -1,0 +1,49 @@
+.article-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  
+    .article-card-header {
+      padding: 12px;
+      background-color: #f9f9f9;
+  
+      .article-card-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+  
+      .article-card-category,
+      .article-card-date {
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    }
+  
+    .article-card-body {
+      display: flex;
+  
+      .article-card-photo {
+        flex: 0 0 40%;
+        padding: 12px;
+  
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+  
+      .article-card-text {
+        flex: 1;
+        padding: 12px;
+  
+        .article-card-excerpt {
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
