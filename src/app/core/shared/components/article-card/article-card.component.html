@@ -1,0 +1,15 @@
+<div class="article-card">
+    <div class="article-card-header">
+      <h2 class="article-card-title">{{ data.title }}</h2>
+      <p class="article-card-category">{{ data.category }}</p>
+      <p class="article-card-date">{{ data.date }}</p>
+    </div>
+    <div class="article-card-body">
+      <div class="article-card-photo" *ngIf="data.photoUrl">
+        <img [src]="data.photoUrl" alt="Article photo">
+      </div>
+      <div class="article-card-text">
+        <p class="article-card-excerpt">{{ data.excerpt }}</p>
+      </div>
+    </div>
+  </div>

@@ -1,27 +1,70 @@
-# TestFidesio
+# Test Fidesio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Ce projet est une solution au test technique proposé par Fidesio.
 
-## Development server
+## Technologies utilisées
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ce projet a été développé en utilisant les technologies suivantes :
 
-## Code scaffolding
+- Angular 12.0.0
+- HTML5
+- CSS3
+- TypeScript 4.3.5
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+Pour installer ce projet localement, vous aurez besoin de Node.js et NPM (ou Yarn) sur votre machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clonez le repository depuis GitHub en utilisant la commande suivante :
 
-## Running unit tests
+`git clone https://github.com/hanshny/test-fidesio.git`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Ouvrez le répertoire du projet et installez les dépendances à l'aide de NPM ou Yarn :
 
-## Running end-to-end tests
+`cd test-fidesio`
+`npm install`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Lancez l'application à l'aide de la commande suivante :
 
-## Further help
+`ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Ouvrez votre navigateur et accédez à `http://localhost:4200` pour voir l'application en cours d'exécution.
+
+## Fonctionnalités
+
+Cette application présente les fonctionnalités suivantes :
+
+- Un composant `accordion` qui affiche 4 panneaux en accordeon.
+
+- Un composant `partners-logo` qui affiche un bandeau horizontal avec 6 logos.
+
+- Les composants `article-block` et `article-card` qui affiche les articles
+
+## Contribution
+
+Les contributions à ce projet sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
+
+1. Créez une branche depuis la branche `main` avec un nom descriptif pour votre fonctionnalité ou votre correction de bogue :
+
+`git checkout -b ma-nouvelle-fonctionnalite`
+
+2. Effectuez vos modifications et testez-les localement.
+
+3. Commitez vos modifications en utilisant des messages de commit descriptifs :
+
+`git commit -m "Ajoute une nouvelle fonctionnalité"`
+
+4. Poussez votre branche vers le repository GitHub :
+
+`git push origin ma-nouvelle-fonctionnalite`
+
+5. Ouvrez une Pull Request vers la branche `main` en expliquant clairement les modifications que vous avez apportées et en incluant une capture d'écran si nécessaire.
+
+## Auteur
+
+Ce projet a été développé par [votre nom].
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
+

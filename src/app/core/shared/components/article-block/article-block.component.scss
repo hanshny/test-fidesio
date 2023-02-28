@@ -1,0 +1,26 @@
+.article-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .article-block-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .article-block-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+  
+    .article-block-meta {
+      font-size: 0.8rem;
+  
+      .article-block-category {
+        margin-right: 1rem;
+      }
+    }
+  }
+  

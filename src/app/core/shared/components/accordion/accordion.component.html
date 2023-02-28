@@ -1,0 +1,13 @@
+<div class="accordion">
+    <div class="accordion-item" *ngFor="let item of items; let i = index">
+      <div class="accordion-header" (click)="toggleAccordion(i)">
+        {{ item.title }}
+        <i class="material-icons" *ngIf="activeIndex !== i">expand_more</i>
+        <i class="material-icons" *ngIf="activeIndex === i">expand_less</i>
+      </div>
+      <div class="accordion-content" [hidden]="activeIndex !== i">
+        {{ item.content }}
+      </div>
+    </div>
+  </div>
+  
